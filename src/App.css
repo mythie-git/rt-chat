@@ -1,0 +1,48 @@
+/* App.css */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+.app-container {
+  height: 100vh;
+}
+
+.login-container {
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.room-list {
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-right: 1px solid #ccc;
+}
+
+.chat-container {
+  padding: 20px;
+}
+
+.message-container {
+  height: 70vh;
+  overflow-y: auto;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.message-item {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.message-item.sent {
+  background-color: #4caf50;
+  color: #fff;
+  align-self: flex-end;
+}
+
+.message-item.received {
+  background-color: #fff;
+  color: #333;
+  align-self: flex-start;
+}
